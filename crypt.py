@@ -1,7 +1,13 @@
 from __future__ import print_function
 from ortools.constraint_solver import pywrapcp
 from os import abort
-
+#  _ _ _
+#  * A _
+#=
+#A _ _ B
+#_ A B
+#=
+#_ B A B
 def CPIsFun():
   # Constraint programming engine
   solver = pywrapcp.Solver('CP is fun!');
